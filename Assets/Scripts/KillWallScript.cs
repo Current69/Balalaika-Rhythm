@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class KillWallScript : MonoBehaviour {
 
+	//basic kill wall, destroy what enters it, note blocks pretty much
+
 	// Use this for initialization
 	void Start () {
 		
