@@ -1,0 +1,1283 @@
+fileFormatVersion: 2
+guid: f31ca79c21eb88c4b89fdeda224f4565
+timeCreated: 1526706275
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dance1_anim2_0
+    21300002: Dance1_anim2_1
+    21300004: Dance1_anim2_2
+    21300006: Dance1_anim2_3
+    21300008: Dance1_anim2_4
+    21300010: Dance1_anim2_5
+    21300012: Dance1_anim2_6
+    21300014: Dance1_anim2_7
+    21300016: Dance1_anim2_8
+    21300018: Dance1_anim2_9
+    21300020: Dance1_anim2_10
+    21300022: Dance1_anim2_11
+    21300024: Dance1_anim2_12
+    21300026: Dance1_anim2_13
+    21300028: Dance1_anim2_14
+    21300030: Dance1_anim2_15
+    21300032: Dance1_anim2_16
+    21300034: Dance1_anim2_17
+    21300036: Dance1_anim2_18
+    21300038: Dance1_anim2_19
+    21300040: Dance1_anim2_20
+    21300042: Dance1_anim2_21
+    21300044: Dance1_anim2_22
+    21300046: Dance1_anim2_23
+    21300048: Dance1_anim2_24
+    21300050: Dance1_anim2_25
+    21300052: Dance1_anim2_26
+    21300054: Dance1_anim2_27
+    21300056: Dance1_anim2_28
+    21300058: Dance1_anim2_29
+    21300060: Dance1_anim2_30
+    21300062: Dance1_anim2_31
+    21300064: Dance1_anim2_32
+    21300066: Dance1_anim2_33
+    21300068: Dance1_anim2_34
+    21300070: Dance1_anim2_35
+    21300072: Dance1_anim2_36
+    21300074: Dance1_anim2_37
+    21300076: Dance1_anim2_38
+    21300078: Dance1_anim2_39
+    21300080: Dance1_anim2_40
+    21300082: Dance1_anim2_41
+    21300084: Dance1_anim2_42
+    21300086: Dance1_anim2_43
+    21300088: Dance1_anim2_44
+    21300090: Dance1_anim2_45
+    21300092: Dance1_anim2_46
+    21300094: Dance1_anim2_47
+    21300096: Dance1_anim2_48
+    21300098: Dance1_anim2_49
+    21300100: Dance1_anim2_50
+    21300102: Dance1_anim2_51
+    21300104: Dance1_anim2_52
+    21300106: Dance1_anim2_53
+    21300108: Dance1_anim2_54
+    21300110: Dance1_anim2_55
+    21300112: Dance1_anim2_56
+    21300114: Dance1_anim2_57
+    21300116: Dance1_anim2_58
+    21300118: Dance1_anim2_59
+    21300120: Dance1_anim2_60
+    21300122: Dance1_anim2_61
+    21300124: Dance1_anim2_62
+    21300126: Dance1_anim2_63
+    21300128: Dance1_anim2_64
+    21300130: Dance1_anim2_65
+    21300132: Dance1_anim2_66
+    21300134: Dance1_anim2_67
+    21300136: Dance1_anim2_68
+    21300138: Dance1_anim2_69
+    21300140: Dance1_anim2_70
+    21300142: Dance1_anim2_71
+    21300144: Dance1_anim2_72
+    21300146: Dance1_anim2_73
+    21300148: Dance1_anim2_74
+    21300150: Dance1_anim2_75
+    21300152: Dance1_anim2_76
+    21300154: Dance1_anim2_77
+    21300156: Dance1_anim2_78
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dance1_anim2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 910
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 910
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 910
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 910
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 910
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 860
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_6
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 860
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 860
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 860
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 860
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 809
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 809
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 809
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 809
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_14
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 809
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 759
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 759
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 759
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_18
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 759
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_19
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 759
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 708
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_21
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 708
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_22
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 708
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_23
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 708
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_24
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 708
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 658
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_26
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 658
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_27
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 658
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 658
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_29
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 658
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 557
+        width: 179
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_31
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 607
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_32
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 557
+        width: 179
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_33
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 557
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 506
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_35
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 506
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_36
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 506
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_37
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 506
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_38
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 506
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 455
+        width: 89
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 455
+        width: 89
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_41
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 455
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_42
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 455
+        width: 89
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_43
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 455
+        width: 89
+        height: 50
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 405
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_45
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 405
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_46
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 405
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_47
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 405
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_48
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 405
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 304
+        width: 179
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_50
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 354
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_51
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 304
+        width: 179
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_52
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 304
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 253
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_54
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 253
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_55
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 253
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_56
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 253
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_57
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 253
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 203
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_59
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 203
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_60
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 203
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_61
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 203
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_62
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 203
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_63
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 152
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_64
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 152
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_65
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 152
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_66
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 152
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_67
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 152
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 102
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_69
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 102
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_70
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 102
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_71
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 102
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_72
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 102
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_73
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_74
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 51
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_75
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 51
+        width: 88
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_76
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 51
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_77
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 51
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dance1_anim2_78
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 89
+        height: 49
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
