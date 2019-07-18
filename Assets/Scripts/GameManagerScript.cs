@@ -116,6 +116,7 @@ public class GameManagerScript : MonoBehaviour {
 
 	public void PauseButton(){
 		paused = !paused;
+		
 	}
 
 

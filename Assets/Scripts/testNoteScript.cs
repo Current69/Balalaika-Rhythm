@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class testNoteScript : MonoBehaviour {
 	public float speed;
+	public bool paused;
 
 	// Use this for initialization
 	void Start () {
@@ -12,7 +13,11 @@ public class testNoteScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Translate (Vector2.down * speed);
+		paused = GameObject.FindGameObjectWithTag("Main Camera").GetComponent<GameManagerScript>().paused;
+		if (paused == false){
+			transform.Translate (Vector2.down * speed);
+		}
+		
 	}
 		
 }

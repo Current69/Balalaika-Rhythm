@@ -23,4 +23,7 @@ public class StartScript : MonoBehaviour {
 	public void BonusButton(){
 		SceneManager.LoadScene (3);
 	}
+	public void QuitButton(){
+		Application.Quit();
+	}
 }
