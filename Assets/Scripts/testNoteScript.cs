@@ -13,7 +13,7 @@ public class testNoteScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		paused = GameObject.FindGameObjectWithTag("Main Camera").GetComponent<GameManagerScript>().paused;
+		paused = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerScript>().paused;
 		if (paused == false){
 			transform.Translate (Vector2.down * speed);
 		}

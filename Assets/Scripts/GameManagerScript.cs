@@ -53,6 +53,7 @@ public class GameManagerScript : MonoBehaviour {
 	void Update () {
 		if(paused == true){
 			audiothing.Pause();
+			
 		}else if(!audiothing.isPlaying && paused == false){
 			audiothing.Play();
 		}
@@ -116,6 +117,7 @@ public class GameManagerScript : MonoBehaviour {
 
 	public void PauseButton(){
 		paused = !paused;
+		GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>().PlayPauseAnim();
 		
 	}
 

@@ -56,6 +56,23 @@ public class playerKeyTest : MonoBehaviour {
 				hitSpots [2].GetComponent<HitSpotScript> ().click = false;
 			}
 		}
+		if (Application.platform == RuntimePlatform.WindowsEditor) {
+			if (Input.GetKey (KeyCode.A)) {
+				hitSpots [0].GetComponent<HitSpotScript> ().click = true;
+			} else {
+				hitSpots [0].GetComponent<HitSpotScript> ().click = false;
+			}
+			if (Input.GetKey (KeyCode.W)) {
+				hitSpots [1].GetComponent<HitSpotScript> ().click = true;
+			} else {
+				hitSpots [1].GetComponent<HitSpotScript> ().click = false;
+			}
+			if (Input.GetKey (KeyCode.D)) {
+				hitSpots [2].GetComponent<HitSpotScript> ().click = true;
+			} else {
+				hitSpots [2].GetComponent<HitSpotScript> ().click = false;
+			}
+		}
 	}
 		
 }

@@ -12,6 +12,7 @@ TagManager:
   - LeftNote
   - MiddleNote
   - RightNote
+  - UIManager
   layers:
   - Default
   - TransparentFX
