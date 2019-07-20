@@ -12,6 +12,7 @@ public class HitSpotScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		canvasObject = gameObject.transform.GetChild(0);
 		
 	}
 	

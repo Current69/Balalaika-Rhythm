@@ -32,9 +32,11 @@ public class GameManagerScript : MonoBehaviour {
 	public int songChoice;
 	public int totalHits;
 	public bool paused;
+	public GameObject PauseMenu;
 
 	// Use this for initialization
 	void Start () {
+		PauseMenu.SetActive(false);
 		songChoice = PlayerPrefs.GetInt ("songnumber");
 		song1 = GetComponent<SongConverter> ();
 		audiothing = GetComponent<AudioSource> ();
@@ -118,6 +120,11 @@ public class GameManagerScript : MonoBehaviour {
 	public void PauseButton(){
 		paused = !paused;
 		GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>().PlayPauseAnim();
+		if(PauseMenu.activeSelf == true){
+			PauseMenu.SetActive(false);
+		}else{
+			PauseMenu.SetActive(true);
+		}
 		
 	}
 

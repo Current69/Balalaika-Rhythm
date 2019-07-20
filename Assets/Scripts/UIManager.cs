@@ -10,15 +10,19 @@ public class UIManager : MonoBehaviour
     public GameObject MiddleButtonText;
     public GameObject RightButtonText;
     public Animator Song1Anim;
+    public Sprite[] backgroundArray;
+    public GameObject BackgroundPanel;
     // Start is called before the first frame update
     void Start()
     {
+        songSelected = PlayerPrefs.GetInt("songnumber");
         LeftButtonText.SetActive(false);
         MiddleButtonText.SetActive(false);
         RightButtonText.SetActive(false);
         if(SystemInfo.deviceType == DeviceType.Desktop){
             LoadButtonText();
         }
+        BackgroundPanel.GetComponent<Image>().sprite = backgroundArray[songSelected-1];
     }
 
     // Update is called once per frame
