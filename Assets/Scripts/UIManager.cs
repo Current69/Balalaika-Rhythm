@@ -25,6 +25,13 @@ public class UIManager : MonoBehaviour
         }
         BackgroundPanel.GetComponent<Image>().sprite = backgroundArray[songSelected-1];
         currentAnim = AnimationArray[songSelected-1];
+        foreach (var Anim in AnimationArray)
+        {
+            Anim.SetActive(false);
+        }
+
+        currentAnim.SetActive(true);
+        
     }
 
     // Update is called once per frame

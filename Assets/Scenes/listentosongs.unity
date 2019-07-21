@@ -303,7 +303,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f7b135ac41a07854fbdff4beb7e8566a, type: 3}
   - {fileID: 8300000, guid: 55efc82bb91d8f1418a0abf7a98ffee7, type: 3}
   - {fileID: 8300000, guid: 147c534c23ba60e4e9ce12eebdb2f367, type: 3}
-  - {fileID: 8300000, guid: 69671f5fe055ee245861634030f724b3, type: 3}
+  - {fileID: 8300000, guid: 303d6256ad47e6b4a90ee962c9c4b546, type: 3}
   - {fileID: 8300000, guid: 27209c59c9bee6c4aa467c60f2927924, type: 3}
   loadedClip: {fileID: 0}
   cameraAudio: {fileID: 740331926}

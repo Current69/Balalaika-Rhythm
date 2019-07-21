@@ -9,6 +9,7 @@ public class OptionsScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		PlayerPrefs.SetInt("english?", 1);
 		
 	}
 	

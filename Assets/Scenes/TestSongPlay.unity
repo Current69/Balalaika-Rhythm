@@ -1157,8 +1157,8 @@ MonoBehaviour:
   RightButtonText: {fileID: 152618087}
   AnimationArray:
   - {fileID: 2108720554}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2068892139}
+  - {fileID: 2068892139}
   currentAnim: {fileID: 0}
   backgroundArray:
   - {fileID: 21300000, guid: 9abaaf9208ac3ff48a7600f921e6e6da, type: 3}
@@ -1236,15 +1236,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
         type: 3}
+      propertyPath: sounds.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
       propertyPath: canvasObject
       value: 
       objectReference: {fileID: 1312755549}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: sounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: fd106616ba3764747ba820fc55bbe430, type: 3}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: sounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: bdab4c591632b574b87bf1c3a5fa3138, type: 3}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: sounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 18df5ae610005564ebf62bcdbfd145cf, type: 3}
     - target: {fileID: 212044750699565484, guid: 96e5b4ef13ed9454c92882ecd29656cf,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 22e7fb76ebadf48489fff96f7d64dd4d,
         type: 3}
+    - target: {fileID: 61728574346094174, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61728574346094174, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61728574346094174, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61728574346094174, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.w
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96e5b4ef13ed9454c92882ecd29656cf, type: 3}
 --- !u!1 &715987769
@@ -2016,6 +2056,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
         type: 3}
+      propertyPath: sounds.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
       propertyPath: scoreUp
       value: 
       objectReference: {fileID: 1735785966853104, guid: a7cfb355210cf31428a6fae0e1fdcce4,
@@ -2025,12 +2070,47 @@ PrefabInstance:
       propertyPath: canvasObject
       value: 
       objectReference: {fileID: 615308504}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: sounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 170541c87101a1c49b0696c984548108, type: 3}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: sounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2d05d9eaab441014fa0387750a0dc816, type: 3}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: sounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: cec1353c7ebef274d841121356456515, type: 3}
     - target: {fileID: 212044750699565484, guid: 96e5b4ef13ed9454c92882ecd29656cf,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 2701dd82fbc922340a341965a65223f4,
         type: 3}
+    - target: {fileID: 61728574346094174, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61728574346094174, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61728574346094174, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61728574346094174, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.w
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96e5b4ef13ed9454c92882ecd29656cf, type: 3}
 --- !u!1 &1383604652 stripped
@@ -2079,7 +2159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: -0.000015258789}
+  m_AnchoredPosition: {x: 0.000015258789, y: 0}
   m_SizeDelta: {x: 561.61, y: 878.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1528220114
@@ -2430,15 +2510,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
         type: 3}
+      propertyPath: sounds.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
       propertyPath: canvasObject
       value: 
       objectReference: {fileID: 219218881}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: sounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: e80d47c4988a7ad4a9b86387bc49055d, type: 3}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: sounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 16214b2333063ce4b9bdb6aa4ef8b96a, type: 3}
+    - target: {fileID: 114029083478223008, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: sounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2bec2034f9f568e478344bad8aa30b70, type: 3}
     - target: {fileID: 212044750699565484, guid: 96e5b4ef13ed9454c92882ecd29656cf,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 29749b890d4ea534483b7a47898e7501,
         type: 3}
+    - target: {fileID: 2116851495686016815, guid: 96e5b4ef13ed9454c92882ecd29656cf,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 96e5b4ef13ed9454c92882ecd29656cf, type: 3}
@@ -2858,7 +2963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &2068892140
 Animator:
   serializedVersion: 3
@@ -2934,7 +3039,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068892139}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 1.36, z: 0}
+  m_LocalPosition: {x: -0.03, y: 1.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

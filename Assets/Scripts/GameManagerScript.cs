@@ -53,13 +53,6 @@ public class GameManagerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(paused == true){
-			audiothing.Pause();
-			
-		}else if(!audiothing.isPlaying && paused == false){
-			audiothing.Play();
-		}
-
 		if (songLoaded == true) {
 
 			pitch = audiothing.pitch;
@@ -124,6 +117,12 @@ public class GameManagerScript : MonoBehaviour {
 			PauseMenu.SetActive(false);
 		}else{
 			PauseMenu.SetActive(true);
+		}
+		if(paused == true){
+			audiothing.Pause();
+			
+		}else if(!audiothing.isPlaying && paused == false){
+			audiothing.Play();
 		}
 		
 	}
