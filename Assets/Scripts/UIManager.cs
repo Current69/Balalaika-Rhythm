@@ -9,7 +9,8 @@ public class UIManager : MonoBehaviour
     public GameObject LeftButtonText;
     public GameObject MiddleButtonText;
     public GameObject RightButtonText;
-    public Animator Song1Anim;
+    public GameObject[] AnimationArray;
+    public GameObject currentAnim; 
     public Sprite[] backgroundArray;
     public GameObject BackgroundPanel;
     // Start is called before the first frame update
@@ -23,6 +24,7 @@ public class UIManager : MonoBehaviour
             LoadButtonText();
         }
         BackgroundPanel.GetComponent<Image>().sprite = backgroundArray[songSelected-1];
+        currentAnim = AnimationArray[songSelected-1];
     }
 
     // Update is called once per frame
@@ -38,6 +40,6 @@ public class UIManager : MonoBehaviour
     }
 
     public void PlayPauseAnim(){
-        Song1Anim.enabled =! Song1Anim.enabled; 
+        currentAnim.GetComponent<Animator>().enabled =! currentAnim.GetComponent<Animator>().enabled;
     }
 }
