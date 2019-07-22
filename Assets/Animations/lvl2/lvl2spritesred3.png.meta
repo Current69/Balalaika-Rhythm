@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: a697254d5a85cf5478fbaa8557dc9b78
+guid: fd294a828d6c9bf4a81cce2a07e12e6d
 TextureImporter:
   fileIDToRecycleName:
-    21300000: lvl2sprites1_0
-    21300002: lvl2sprites1_1
-    21300004: lvl2sprites1_2
-    21300006: lvl2sprites1_3
+    21300000: lvl2spritesred3_0
+    21300002: lvl2spritesred3_1
+    21300004: lvl2spritesred3_2
+    21300006: lvl2spritesred3_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -88,7 +88,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lvl2sprites1_0
+      name: lvl2spritesred3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -102,13 +102,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c573f2d2c00224d95cf35836316c15
+      spriteID: a251060ec97c90449ac2b87ba7c9886e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lvl2sprites1_1
+      name: lvl2spritesred3_1
       rect:
         serializedVersion: 2
         x: 660
@@ -122,13 +122,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1b2052fc1bc30b42a780267a4662d27
+      spriteID: 2c7a0b1760032834f8d81b782518acdf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lvl2sprites1_2
+      name: lvl2spritesred3_2
       rect:
         serializedVersion: 2
         x: 1320
@@ -142,13 +142,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fbc51100b13876418ab50acf546d76f
+      spriteID: cf169cdf1e86a4340bccd4018b93ad06
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lvl2sprites1_3
+      name: lvl2spritesred3_3
       rect:
         serializedVersion: 2
         x: 1980
@@ -162,7 +162,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b6368618c89665488f3fae60ad28a62
+      spriteID: 58bba21d910180f4dadb63aa0957537a
       vertices: []
       indices: 
       edges: []
@@ -170,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8e2d1bd1f1f4b85498e951b93f42d11b
+    spriteID: f84be6eb9f5287e458432f52c3f05b0b
     vertices: []
     indices: 
     edges: []
