@@ -10,16 +10,11 @@ public class HitSpotScript : MonoBehaviour {
 	public GameObject scoreUp;
 	public Transform canvasObject;
 	public int songSelected;
-	public AudioClip[] sounds;
-	public AudioSource soundSource;
 
 	// Use this for initialization
 	void Start () {
 		songSelected = PlayerPrefs.GetInt("songnumber");
-		canvasObject = gameObject.transform.GetChild(0);
-		soundSource = GetComponent<AudioSource> ();
-		soundSource.clip = sounds [songSelected-1];
-		
+		canvasObject = gameObject.transform.GetChild(0);	
 	}
 	
 	// Update is called once per frame
@@ -55,7 +50,6 @@ public class HitSpotScript : MonoBehaviour {
 				temp.GetComponent<Text> ().text = "+5";
 				temp.transform.SetParent (canvasObject, false);
 			}
-			soundSource.Play();
 		}
 	}
 	void OnTriggerExit2D(Collider2D other){

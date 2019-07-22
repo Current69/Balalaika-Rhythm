@@ -10,9 +10,12 @@ public class UIManager : MonoBehaviour
     public GameObject MiddleButtonText;
     public GameObject RightButtonText;
     public GameObject[] AnimationArray;
+    public GameObject ExtraAnim;
     public GameObject currentAnim; 
     public Sprite[] backgroundArray;
     public GameObject BackgroundPanel;
+    public Sprite[] AnimationBackgroundArray;
+    public GameObject currentAnimPanel;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,13 +27,21 @@ public class UIManager : MonoBehaviour
             LoadButtonText();
         }
         BackgroundPanel.GetComponent<Image>().sprite = backgroundArray[songSelected-1];
+        currentAnimPanel.GetComponent<Image>().sprite = AnimationBackgroundArray[songSelected-1];
         currentAnim = AnimationArray[songSelected-1];
+        ExtraAnim.SetActive(false);
         foreach (var Anim in AnimationArray)
         {
             Anim.SetActive(false);
         }
 
-        currentAnim.SetActive(true);
+        if(songSelected == 2){
+            currentAnim.SetActive(true);
+            ExtraAnim.SetActive(true);
+        }else{
+            currentAnim.SetActive(true);
+        }
+        
         
     }
 
@@ -47,6 +58,12 @@ public class UIManager : MonoBehaviour
     }
 
     public void PlayPauseAnim(){
-        currentAnim.GetComponent<Animator>().enabled =! currentAnim.GetComponent<Animator>().enabled;
+        if(songSelected == 2){
+            currentAnim.GetComponent<Animator>().enabled =! currentAnim.GetComponent<Animator>().enabled;
+            ExtraAnim.GetComponent<Animator>().enabled =! ExtraAnim.GetComponent<Animator>().enabled;
+        }else{
+            currentAnim.GetComponent<Animator>().enabled =! currentAnim.GetComponent<Animator>().enabled;
+        }
+        
     }
 }
