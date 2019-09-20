@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using NotelineClass;
 
+[System.Serializable]
 public class SongConverter : MonoBehaviour {
 
 

@@ -45,7 +45,7 @@ public class playerKeyTest : MonoBehaviour {
 			} else {
 				hitSpots [0].GetComponent<HitSpotScript> ().click = false;
 			}
-			if (Input.GetKey (KeyCode.W)) {
+			if (Input.GetKey (KeyCode.S)) {
 				hitSpots [1].GetComponent<HitSpotScript> ().click = true;
 			} else {
 				hitSpots [1].GetComponent<HitSpotScript> ().click = false;
@@ -62,7 +62,7 @@ public class playerKeyTest : MonoBehaviour {
 			} else {
 				hitSpots [0].GetComponent<HitSpotScript> ().click = false;
 			}
-			if (Input.GetKey (KeyCode.W)) {
+			if (Input.GetKey (KeyCode.S)) {
 				hitSpots [1].GetComponent<HitSpotScript> ().click = true;
 			} else {
 				hitSpots [1].GetComponent<HitSpotScript> ().click = false;

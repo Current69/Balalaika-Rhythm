@@ -13,6 +13,7 @@ public class StoryControllerScript : MonoBehaviour {
 	public string[] storyText;
 	public Text placeholderText;
 	public bool split;
+	public GameObject TitleText;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,11 @@ public class StoryControllerScript : MonoBehaviour {
 	void Update () {
 		placeHolder.sprite = Images [page];
 		placeholderText.text = storyText[page];
+		if(page == 0){
+			TitleText.SetActive(true);
+		}else{
+			TitleText.SetActive(false);
+		}
 	}
 	public void BackButton(){
 		SceneManager.LoadScene (11);
