@@ -960,6 +960,11 @@ PrefabInstance:
       propertyPath: englishStrings.Array.data[0]
       value: FROST
       objectReference: {fileID: 0}
+    - target: {fileID: 7591666533570355557, guid: d2068f2b10a481f47a7e1ccc4ffd963b,
+        type: 3}
+      propertyPath: russianStrings.Array.data[0]
+      value: "\u041C\u043E\u0440\u043E\u0437"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2068f2b10a481f47a7e1ccc4ffd963b, type: 3}
 --- !u!1001 &1039721299
