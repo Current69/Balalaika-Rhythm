@@ -1777,6 +1777,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text
       objectReference: {fileID: 0}
+    - target: {fileID: 97257944337427173, guid: 7c86b42c3bd18274c83b24941cda7ce3,
+        type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 97257944337427175, guid: 7c86b42c3bd18274c83b24941cda7ce3,
         type: 3}
       propertyPath: m_FontData.m_FontSize
@@ -1796,6 +1801,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: BALALAIKA
+      objectReference: {fileID: 0}
+    - target: {fileID: 97257944337427175, guid: 7c86b42c3bd18274c83b24941cda7ce3,
+        type: 3}
+      propertyPath: m_FontData.m_RichText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 97257944337427175, guid: 7c86b42c3bd18274c83b24941cda7ce3,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 97257944337427172, guid: 7c86b42c3bd18274c83b24941cda7ce3,
         type: 3}

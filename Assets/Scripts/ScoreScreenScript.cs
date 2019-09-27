@@ -7,6 +7,10 @@ using UnityEngine.SceneManagement;
 public class ScoreScreenScript : MonoBehaviour {
 
 	public int totalHits;
+	public string winString;
+	public string loseString;
+	public string russianWinString;
+	public string russianLoseString;
 	public Text resultsText;
 	public Text resultsText2;
 	public int notesSpawned;
@@ -26,38 +30,63 @@ public class ScoreScreenScript : MonoBehaviour {
 		totalHits = PlayerPrefs.GetInt ("endScore");
 		if ((notesSpawned * 0.2) < totalHits && totalHits < (notesSpawned * 0.3)) {
 			
-			resultsText.text = ("You win!");
-			resultsText2.text =  ("you scored: " + totalHits + " out of: " + notesSpawned);
+			if(PlayerPrefs.GetInt("english?") == 1){
+				resultsText.text = winString;
+			}else{
+				resultsText.text = russianWinString;
+			}
+			
+			resultsText2.text =  (totalHits + "/" + notesSpawned);
 			starSpawn.GetComponent<Image> ().sprite = stars [1];
 
 		} else if ((notesSpawned * 0.3) < totalHits && totalHits < (notesSpawned * 0.4)) {
 			
-			resultsText.text = ("You win!");
-			resultsText2.text =  ("you scored: " + totalHits + " out of: " + notesSpawned);
+			if(PlayerPrefs.GetInt("english?") == 1){
+				resultsText.text = winString;
+			}else{
+				resultsText.text = russianWinString;
+			}
+			resultsText2.text =  (totalHits + "/" + notesSpawned);
 			starSpawn.GetComponent<Image> ().sprite = stars [2];
 
 		} else if ((notesSpawned * 0.4) < totalHits && totalHits < (notesSpawned * 0.5)) {
 			
-			resultsText.text = ("You win!");
-			resultsText2.text =  ("you scored: " + totalHits + " out of: " + notesSpawned);
+			if(PlayerPrefs.GetInt("english?") == 1){
+				resultsText.text = winString;
+			}else{
+				resultsText.text = russianWinString;
+			}
+			resultsText2.text =  (totalHits + "/" + notesSpawned);
 			starSpawn.GetComponent<Image> ().sprite = stars [3];
 
 		} else if ((notesSpawned * 0.5) < totalHits && totalHits < (notesSpawned * 0.7)) {
 			
-			resultsText.text = ("You win!");
-			resultsText2.text =  ("you scored: " + totalHits + " out of: " + notesSpawned);
+			if(PlayerPrefs.GetInt("english?") == 1){
+				resultsText.text = winString;
+			}else{
+				resultsText.text = russianWinString;
+			}
+			resultsText2.text =  (totalHits + "/" + notesSpawned);
 			starSpawn.GetComponent<Image> ().sprite = stars [4];
 
 		} else if ((notesSpawned * 0.7) < totalHits){
 			
-			resultsText.text = ("You win!");
-			resultsText2.text =  ("you scored: " + totalHits + " out of: " + notesSpawned);
+			if(PlayerPrefs.GetInt("english?") == 1){
+				resultsText.text = winString;
+			}else{
+				resultsText.text = russianWinString;
+			}
+			resultsText2.text =  (totalHits + "/" + notesSpawned);
 			starSpawn.GetComponent<Image> ().sprite = stars [5];
 
 		} else {
 			
-			resultsText.text = ("You lose!");
-			resultsText2.text =  ("you scored: " + totalHits + " out of: " + notesSpawned);
+			if(PlayerPrefs.GetInt("english?") == 1){
+				resultsText.text = loseString;
+			}else{
+				resultsText.text = russianLoseString;
+			}
+			resultsText2.text =  (totalHits + "/" + notesSpawned);
 			starSpawn.GetComponent<Image> ().sprite = stars [0];
 		}
 
